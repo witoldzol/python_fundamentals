@@ -1,19 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7f1969-849c-4d80-ac44-9ad82f38c56a" name="Default Changelist" comment="" />
+    <list default="true" id="9a7f1969-849c-4d80-ac44-9ad82f38c56a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/words.py" beforeDir="false" afterPath="$PROJECT_DIR$/words.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1yTi5H4pdVH3yF7j1FNMf7tRX0c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_fundamentals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/words.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.words" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -25,7 +68,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632281793721</updated>
+      <workItem from="1632281795101" duration="888000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1632282759498">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1632282759498" />
+    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1632282759496">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1920" height="353" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1632282759496" />
+    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1632282759496">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1920" height="353" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1632282759496" />
+    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1632282759497">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1920" height="353" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1632282759497" />
+    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup" timestamp="1632282633835">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1632282633835" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_fundamentals$words.coverage" NAME="words Coverage Results" MODIFIED="1632282759486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
