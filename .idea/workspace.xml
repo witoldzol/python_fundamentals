@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7f1969-849c-4d80-ac44-9ad82f38c56a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sum_of_dividers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_diff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +37,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for sum_of_dividers.TestSumDividers.test_bob">
-    <configuration name="Python tests for sort_integer.TestDescendingOrder" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for list_diff.TestListDiff">
+    <configuration name="Python tests for list_diff.TestListDiff" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_fundamentals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,21 +48,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sort_integer.TestDescendingOrder&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for square_int.Test_Square.test_square" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_fundamentals" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;square_int.Test_Square.test_square&quot;" />
+      <option name="_new_target" value="&quot;list_diff.TestListDiff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -77,6 +63,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;sum_of_dividers.TestSumDividers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for sum_of_dividers.TestSumDividers.test_a" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_fundamentals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sum_of_dividers.TestSumDividers.test_a&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for list_diff.TestListDiff" />
+        <item itemvalue="Python tests.Python tests for sum_of_dividers.TestSumDividers.test_a" />
         <item itemvalue="Python tests.Python tests for sum_of_dividers.TestSumDividers.test_bob" />
         <item itemvalue="Python tests.Python tests for sum_of_dividers.TestSumDividers.test_alternative" />
         <item itemvalue="Python tests.Python tests for sum_of_dividers.TestSumDividers" />
-        <item itemvalue="Python tests.Python tests for square_int.Test_Square.test_square" />
-        <item itemvalue="Python tests.Python tests for sort_integer.TestDescendingOrder" />
       </list>
     </recent_temporary>
   </component>
