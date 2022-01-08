@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7f1969-849c-4d80-ac44-9ad82f38c56a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/move_zeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/move_zeros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rot_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for move_zeros.TestMoveZeros.test_move">
+  <component name="RunManager" selected="Python tests.Python tests for rot_13.TestRot13.test_rot">
     <configuration name="Python tests for bus.TestBus.test_bus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_fundamentals" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,20 +63,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;find_cubic_number.TestCubic.test_cube&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for list_diff.TestListDiff" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_fundamentals" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;list_diff.TestListDiff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -107,13 +94,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for rot_13.TestRot13.test_rot" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_fundamentals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;rot_13.TestRot13.test_rot&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for rot_13.TestRot13.test_rot" />
         <item itemvalue="Python tests.Python tests for move_zeros.TestMoveZeros.test_move" />
         <item itemvalue="Python tests.Python tests for odd_even.TestEven.test_even" />
         <item itemvalue="Python tests.Python tests for bus.TestBus.test_bus" />
         <item itemvalue="Python tests.Python tests for find_cubic_number.TestCubic.test_cube" />
-        <item itemvalue="Python tests.Python tests for list_diff.TestListDiff" />
       </list>
     </recent_temporary>
   </component>
