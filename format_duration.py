@@ -20,40 +20,63 @@ def print_duration(durations):
 
 
 def format_duration(seconds):
+    times = [("year", 365 * 24 * 60 * 60),
+             ("day", 24 * 60 * 60),
+             ("hour", 60 * 60),
+             ("minute", 60),
+             ("second", 1)]
+
     if not seconds:
-        return 'now'
+        return "now"
 
-    minute = 60
-    hour = 60 * minute
-    day = 24 * hour
-    year = 365 * day
+    chunks = []
+    for name, secs in times:
+        qty = seconds // secs
+        if qty:
+            if qty > 1:
+                name += "s"
+            chunks.append(str(qty) + " " + name)
 
-    durations = dict()
+        seconds = seconds % secs
 
-    y = seconds // year
-    if y > 0:
-        durations['year'] = y
-    seconds -= (year * y)
+    return ', '.join(chunks[:-1]) + ' and ' + chunks[-1] if len(chunks) > 1 else chunks[0]
 
-    d = seconds // day
-    if d > 0:
-        durations['day'] = d
-    seconds -= (day * d)
 
-    h = seconds // hour
-    if h > 0:
-        durations['hour'] = h
-    seconds -= (hour * h)
-
-    m = seconds // minute
-    if m > 0:
-        durations['minute'] = m
-    seconds -= (minute * m)
-
-    if seconds > 0:
-        durations['second'] = seconds
-
-    return print_duration(durations)
+# def format_duration(seconds):
+#     if not seconds:
+#         return 'now'
+#
+#     minute = 60
+#     hour = 60 * minute
+#     day = 24 * hour
+#     year = 365 * day
+#
+#     durations = dict()
+#
+#     y = seconds // year
+#     if y > 0:
+#         durations['year'] = y
+#     seconds -= (year * y)
+#
+#     d = seconds // day
+#     if d > 0:
+#         durations['day'] = d
+#     seconds -= (day * d)
+#
+#     h = seconds // hour
+#     if h > 0:
+#         durations['hour'] = h
+#     seconds -= (hour * h)
+#
+#     m = seconds // minute
+#     if m > 0:
+#         durations['minute'] = m
+#     seconds -= (minute * m)
+#
+#     if seconds > 0:
+#         durations['second'] = seconds
+#
+#     return print_duration(durations)
 
 
 class TestFormatDuration(unittest.TestCase):
