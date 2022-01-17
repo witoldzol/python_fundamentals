@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7f1969-849c-4d80-ac44-9ad82f38c56a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pig_latin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greed_score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +33,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220110_0000" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220116_0000" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for pig_latin.TestPigLatin.test_pig">
+  <component name="RunManager" selected="Python tests.Python tests for greed_score.TestGreed.test_greed">
     <configuration name="Python tests for camel_case.TestCamelCase.test_camel" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_fundamentals" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,6 +52,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for greed_score.TestGreed.test_greed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_fundamentals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;greed_score.TestGreed.test_greed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for move_zeros.TestMoveZeros.test_move" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_fundamentals" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,20 +77,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;move_zeros.TestMoveZeros.test_move&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for odd_even.TestEven.test_even" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_fundamentals" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;odd_even.TestEven.test_even&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for greed_score.TestGreed.test_greed" />
         <item itemvalue="Python tests.Python tests for pig_latin.TestPigLatin.test_pig" />
         <item itemvalue="Python tests.Python tests for camel_case.TestCamelCase.test_camel" />
         <item itemvalue="Python tests.Python tests for rot_13.TestRot13.test_rot" />
         <item itemvalue="Python tests.Python tests for move_zeros.TestMoveZeros.test_move" />
-        <item itemvalue="Python tests.Python tests for odd_even.TestEven.test_even" />
       </list>
     </recent_temporary>
   </component>
