@@ -38,7 +38,6 @@ def format_duration(seconds):
             chunks.append(str(qty) + " " + name)
 
         seconds = seconds % secs
-
     return ', '.join(chunks[:-1]) + ' and ' + chunks[-1] if len(chunks) > 1 else chunks[0]
 
 

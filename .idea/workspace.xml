@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7f1969-849c-4d80-ac44-9ad82f38c56a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/find_peaks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/format_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/format_duration.py" afterDir="false" />
     </list>
@@ -33,11 +34,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220117_0000" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220118_0002" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for format_duration.TestFormatDuration.test_duration">
+  <component name="RunManager" selected="Python tests.Python tests for find_peaks.TestFindPeaks.test_peaks">
     <configuration name="Python tests for camel_case.TestCamelCase.test_camel" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_fundamentals" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +50,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;camel_case.TestCamelCase.test_camel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for find_peaks.TestFindPeaks.test_peaks" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_fundamentals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;find_peaks.TestFindPeaks.test_peaks&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -94,27 +109,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for rot_13.TestRot13.test_rot" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_fundamentals" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;rot_13.TestRot13.test_rot&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for find_peaks.TestFindPeaks.test_peaks" />
         <item itemvalue="Python tests.Python tests for format_duration.TestFormatDuration.test_duration" />
         <item itemvalue="Python tests.Python tests for greed_score.TestGreed.test_greed" />
         <item itemvalue="Python tests.Python tests for pig_latin.TestPigLatin.test_pig" />
         <item itemvalue="Python tests.Python tests for camel_case.TestCamelCase.test_camel" />
-        <item itemvalue="Python tests.Python tests for rot_13.TestRot13.test_rot" />
       </list>
     </recent_temporary>
   </component>
