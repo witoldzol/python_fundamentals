@@ -10,10 +10,9 @@ class VigenereCipher:
     def encode(self, text: str) -> str:
         encoded = ''
         for i, char in enumerate(text):
-            k: str = self.key[i]
-            shift_by = self.abc.index(k)
+            shift_by_key = self.abc.index(self.key[i])
             starting_index = self.abc.index(char) if char in self.abc else -1
-            total_index = starting_index + shift_by if starting_index != -1 else -1
+            total_index = starting_index + shift_by_key
             if total_index >= len(self.abc):
                 total_index = total_index - len(self.abc)
             encoded += self.abc[total_index] if starting_index != -1 else text[i]
